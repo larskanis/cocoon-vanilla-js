@@ -181,5 +181,5 @@ const hideFields = () => {
 
 document.addEventListener('DOMContentLoaded', hideFields);
 document.addEventListener('turbolinks:load', hideFields);
-document.addEventListener('turbo:load', hideFields);
+document.addEventListener('turbo:reload', hideFields);
 document.addEventListener('page:load', hideFields);
